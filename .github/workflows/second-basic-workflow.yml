@@ -1,6 +1,7 @@
 name: Second Basic Workflow
 on:
-  # workflow_dispatch
+  push:
+    
 jobs:
   first-job:
     name: First Job
