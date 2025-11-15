@@ -6,5 +6,9 @@ jobs:
     steps:
       - name: Print Greetings
         run: echo "Hello World"
+      - name: Middle Greetings
+        run: echo "Hi Middle one"
+      - name: Second Middle
+        run: echo "second Middle one"
       - name: Print GoodBye
         run: echo "Done - Bye"
