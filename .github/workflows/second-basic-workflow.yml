@@ -1,7 +1,5 @@
 name: Second Basic Workflow
-on:
-  push:
-    
+on: workflow_dispatch
 jobs:
   first-job:
     name: First Job
